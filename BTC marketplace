@@ -12,7 +12,8 @@ def newUser(person, balance):            #create a new user
 def delUser(person):                    #delete a user
     userDict.pop(person)
 
-    
+newUser("eric", 200)
+print(userDict)
 
 
 
