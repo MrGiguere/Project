@@ -3,13 +3,14 @@
 #Transfer bitcoin between wallets
 #Destroy wallet
 
+def newUser(user, amount):            #create a new user
+    userDict[user] = amount
 
 
+def delUser(user):                    #delete a user
+    userDict.pop(user)
 
-
-
-
-
+    
 
 
 
