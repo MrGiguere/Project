@@ -5,8 +5,8 @@
 
 userDict = []
 
-def newUser(user, amount):            #create a new user
-    userDict[user] = amount
+def newUser(user, balance):            #create a new user
+    userDict[user] = balance
 
 
 def delUser(user):                    #delete a user
