@@ -5,12 +5,12 @@
 
 userDict = []
 
-def newUser(user, balance):            #create a new user
-    userDict[user] = balance
+def newUser(person, balance):            #create a new user
+    userDict[person] = balance
 
 
-def delUser(user):                    #delete a user
-    userDict.pop(user)
+def delUser(person):                    #delete a user
+    userDict.pop(person)
 
     
 
