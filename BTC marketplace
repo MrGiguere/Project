@@ -7,7 +7,7 @@
 class Wallet: #Creates the Wallet class
 username = ""
 password = ""
-pin = 0
+pin = 0  #very strong password, very cool
 
 def __init__(self,username,password, pin):
 
