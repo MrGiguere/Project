@@ -1,3 +1,11 @@
+
+
+
+
+
+
+
+
 #Create different wallets for different users
 #Create a mine function that gives a set amount of BTC
 #Transfer bitcoin between wallets
@@ -6,9 +14,9 @@
 
 class Wallet: #Creates the Wallet class
     def __init__(self,username,password, pin):
-    self.username = username
-    self.password = password
-    self.pin = pin
+        self.username = username
+        self.password = password
+        self.pin = pin
 
 
 
