@@ -5,12 +5,10 @@
 
 
 class Wallet: #Creates the Wallet class
-def __init__(self,username,password, pin):
-self.username = username
-self.password = password
-self.pin = pin
-
-def createWallet(username, password):            #create a new user wallet  #DELETE?
+    def __init__(self,username,password, pin):
+    self.username = username
+    self.password = password
+    self.pin = pin
 
 
 
