@@ -10,11 +10,11 @@ class Wallet: #Creates the Wallet class
 def __init__(self,username,password)
 
 def createWallet(username, password):            #create a new user wallet
-    userDict[user] = amount
+
 
 
 def deleteWallet(address, password):                    #deletes a user's wallet
-    userDict.pop(user)
+
 
     
 
