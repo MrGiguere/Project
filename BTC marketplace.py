@@ -12,7 +12,12 @@ class Wallet: #Creates the Wallet class
 
 
 
-def deleteWallet(address, password):                    #deletes a user's wallet
+def deleteWallet(name, password): #deletes a user's wallet
+    if name.password == password:
+        del name
+        print("Deleted.")
+    else:
+        print("Error wrong password.")
 
 
     
