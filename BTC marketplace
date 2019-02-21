@@ -5,15 +5,18 @@
 
 userDict = {}
 
-def newUser(person, balance):            #create a new user
-    userDict[person] = balance
+class Wallet:
+
+def __init__(self,username,password)
+
+def createWallet(username, password):            #create a new user
+    userDict[user] = amount
 
 
-def delUser(person):                    #delete a user
-    userDict.pop(person)
+def deleteWallet(address, password):                    #delete a user
+    userDict.pop(user)
 
-newUser("eric", 200)
-print(userDict)
+    
 
 
 
