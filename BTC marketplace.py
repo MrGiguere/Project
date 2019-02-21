@@ -1,9 +1,9 @@
-
-
-
-
-
-
+##File: project2.py
+##Author: Ethan Pafford, Max Babka, Eric Zhang, Allen Ngo
+##Date: Due 3/4/2019
+##Class: AP Computer Science Principles period 3
+##Teacher: Mr. Giguere
+##Code Description: 
 
 
 #Create different wallets for different users
