@@ -10,12 +10,14 @@ class Wallet: #Creates the Wallet class
     self.password = password
     self.pin = pin
 
-    def deleteWallet(name, password): #deletes a user's wallet
-        if name.password == password:
-            del name
-            print("Deleted.")
-        else:
-            print("Error wrong password.")
+
+
+def deleteWallet(name, password): #deletes a user's wallet
+    if name.password == password:
+        del name
+        print("Deleted.") #correct password, Deleted!
+    else:
+        print("Error wrong password.") #incorrect password
 
 
     
