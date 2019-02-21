@@ -3,11 +3,11 @@
 #Transfer bitcoin between wallets
 #Destroy wallet
 
-userDict = {} #Creates the userDictionary
 
 class Wallet: #Creates the Wallet class
 
-def __init__(self,username,password)
+def __init__(self,username,password):
+#creates wallet and a hash
 
 def createWallet(username, password):            #create a new user wallet
 
