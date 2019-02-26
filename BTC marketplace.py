@@ -25,7 +25,7 @@ def transferWallet(name, password, amount, address):
         self.balance = self.balance - amount
         address.balance = address.balance + amount
 
-def mineBTC 
+def mineBTC()
 
 
 
