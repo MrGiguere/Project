@@ -3,6 +3,7 @@
 #Transfer bitcoin between wallets
 #Destroy wallet
 
+import random
 
 class Wallet: #Creates the Wallet class
     def __init__(self,username,password, pin, balance):
@@ -25,7 +26,11 @@ def transferWallet(name, password, amount, address):
         self.balance = self.balance - amount
         address.balance = address.balance + amount
 
-def mineBTC()
+def mineBTC(import('guess a number between 0 & 5')
+    number = random.randint(0,6)
+    if import() = number
+            
+    
 
 
 
