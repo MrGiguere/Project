@@ -1,6 +1,6 @@
 ##File: project2.py
 ##Author: Ethan Pafford, Allen Ngo, Max Babka, Eric Zhang
-##Date: Due 1/23/2019
+##Date: Due 3/23/2019
 ##Class: AP Computer Science Principles period 3
 ##Teacher: Mr. Giguere
 ##Code Description: Simulate a Bitcoin marketplace (using wallets)
