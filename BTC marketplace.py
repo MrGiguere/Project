@@ -31,6 +31,8 @@ class Wallet: #Creates the Wallet class
     def mineBitcoin(self, guess):
         number = random.randint(0,6)
         if guess == number:
-            balance = balance+1
+            self.balance = self.balance+1
             print("Your balance has been updated, your wallet contains: "+str(self.balance))
+        else:
+            print("Your SHA-256 hash was incorrect")
 
