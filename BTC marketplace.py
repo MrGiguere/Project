@@ -1,7 +1,9 @@
-#Create different wallets for different users
-#Create a mine function that gives a set amount of BTC
-#Transfer bitcoin between wallets
-#Destroy wallet
+##File: project2.py
+##Author: Ethan Pafford, Allen Ngo, Max Babka, Eric Zhang
+##Date: Due 1/23/2019
+##Class: AP Computer Science Principles period 3
+##Teacher: Mr. Giguere
+##Code Description: Simulate a Bitcoin marketplace (using wallets)
 
 import random
 
