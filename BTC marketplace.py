@@ -13,7 +13,7 @@ class Wallet: #Creates the Wallet class
         self.pin = pin
         self.balance = balance
 
-    def checkBalance(self):
+    def checkBalance(self): #Checks your balance
         print(self.balance)
     
     def deleteWallet(self, name, password): #deletes a user's wallet
@@ -23,14 +23,14 @@ class Wallet: #Creates the Wallet class
         else:
             print("Error wrong password.")
 
-    def transferBitcoin(self,password, amount, address):
+    def transferBitcoin(self,password, amount, address): #Transfers Bitcoin 
         if self.password == password:
             self.balance = self.balance - amount
             address.balance = address.balance + amount
         else:
             print("Error!")
 
-    def mineBitcoin(self, guess):
+    def mineBitcoin(self, guess): #Mine new Bitcoin
         number = random.randint(0,6)
         if guess == number:
             self.balance = self.balance+1
